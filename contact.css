@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --weight: 600;
+  background-color: rgb(1, 78, 86);
+  color: white;
+  font-family: "Livvic", sans-serif;
+  font-size: 16px;
+}
+
+.myteam {
+  display: flex;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+nav {
+  color: #2c6269;
+  display: flex;
+  padding: 3rem 1.5rem 0 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--weight);
+  font-size: 18px;
+}
+
+.header__nav__div {
+  background-color: #2c6269;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 255px;
+  transform: translateX(100%);
+  transition: 0.4s transform ease-in-out;
+}
+
+.header__nav__div.open {
+  transform: initial;
+}
+
+.header__nav__close {
+  position: absolute;
+  top: 56px;
+  right: 25px;
+}
+
+.header__nav__li__home {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.header__nav__li__about {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.header__nav__home {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 112px;
+  left: 46px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header__nav__about {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 164px;
+  left: 46px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header__nav__ul__btn__contact {
+  background-color: #2c6269;
+  border: 2px solid white;
+  border-radius: 25px;
+  position: absolute;
+  top: 237px;
+  left: 48px;
+  padding: 9px 33px 11px 34px;
+}
+
+.header__nav__ul__contact {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header__nav__opacity {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.header__nav__opacity.open {
+  display: block;
+}
+
+.contact {
+  text-align: center;
+  padding: 0 5.6rem;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 5rem 0 1rem 0;
+}
+
+.ask {
+  text-align: center;
+  padding: 0 1rem 0 1rem;
+  font-weight: var(--weight);
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 5rem;
+  color: #f67e7e;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.img-sect1 {
+  width: 4rem;
+  height: 4rem;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  background-color: #014e56;
+  border: none;
+  margin: 2rem 0 1rem 0;
+}
+
+.section2 {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.last-hr {
+  margin-bottom: 2rem;
+}
+
+.submit {
+  list-style: none;
+  text-decoration: none;
+  color: #004047;
+  background-color: white;
+  padding: 0.5rem 2rem;
+  margin: 5rem 0;
+  border-radius: 25px;
+}
+
+.section3 {
+  background-color: #002529;
+  text-align: center;
+}
+
+.myteam2 {
+  width: 8rem;
+  height: 2rem;
+}
+
+.lien {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0 8rem;
+  margin: 1rem 0;
+}
+
+.home {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.about {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+address {
+  margin-bottom: 1.5rem;
+}
+
+.num {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right: 0.5rem;
+}
+
+small {
+  margin-top: 0.6rem;
+}
+
+@media screen and (min-width: 896px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    --weight: 600;
+    background-color: rgb(1, 78, 86);
+    color: white;
+    font-family: "Livvic", sans-serif;
+    font-size: 16px;
+  }
+
+  .section2 {
+    margin: 2rem 7rem;
+  }
+
+  .section3 {
+    padding: 2rem 3rem;
+  }
+
+  .myteam2 {
+    display: flex;
+  }
+
+  .lien {
+    display: flex;
+    justify-content: start;
+  }
+
+  .home {
+    margin-right: 1rem;
+  }
+
+  address {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+  }
+
+  .last-article {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="contact.css" />
+    <meta name="description" content="DESCRIPTION" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          class="myteam"
+          src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/logo.svg"
+          alt=""
+        />
+        <img src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-hamburger.svg" alt="burger" onclick="openMenuMobile()" />
+      </nav>
+      <div class="header__nav__opacity">
+
+      </div>
+      <div class="header__nav__div">
+        <img onclick="closeMenuMobile()" class="header__nav__close" src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-close.svg" alt="close">
+        <ul>
+          <li class="header__nav__li__home"><a class="header__nav__home" href="index.html">home</a></li>
+          <li class="header__nav__li__about"><a class="header__nav__about" href="about.html">about</a></li>
+          <button class="header__nav__ul__btn__contact"><a class="header__nav__ul__contact" href="contact.html">Contact us</a></button>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h2 class="contact">contact</h2>
+      <p class="ask">Ask us about</p> 
+      <section>
+        <article class="article-person">
+          <img
+            class="img-sect1"
+            src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-person.svg"
+            alt=""
+          />
+          <p>The quality of our talent network</p>
+        </article>
+        <article class="article-person">
+          <img
+            class="img-sect1"
+            src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-cog.svg"
+            alt=""
+          />
+          <p>Usage & implementation of our software</p>
+        </article>
+        <article class="article-person">
+          <img
+            class="img-sect1"
+            src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-chart.svg"
+            alt=""
+          />
+          <p>How we help drive innovation</p>
+        </article>
+      </section >
+      <form class="section2">
+        <input type="text" placeholder="Name" />
+        <hr />
+        <input type="text" placeholder="Email Address" />
+        <hr />
+        <input type="text" placeholder="Company Name" />
+        <hr />
+        <input type="text" placeholder="Title" />
+        <hr />
+        <input type="text" placeholder="Message" />
+        <hr class="last-hr" />
+        <a class="submit" href="">submit</a>
+      </form>
+    </main>
+    <footer>
+      <section class="section3">
+        <img
+          class="myteam2"
+          src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/logo.svg"
+          alt=""
+        />
+        <ul class="lien">
+          <li><a class="home" href="/">home</a></li>
+          <li><a class="about" href="about.html">about</a></li>
+        </ul>
+        
+        <address>
+          987 Hillcrest Lane <br />
+          Irvine, CA<br />
+          California 92714<br />
+          Call Us : <a class="num" href="949-833-7432">949-833-7432</a>
+        </address>
+        
+        <article class="last-article">
+        <ul class="img">
+          <li class="img">
+            <img
+              src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-facebook.svg"
+              alt=""
+            />
+          </li>
+          <li class="img">
+            <img
+              src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-pinterest.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="ASSETS_POUR_MAQUETTES-main/advanced_myteam-multi-page-website/starter-code/assets/icon-twitter.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+        <small>Copyright 2020. All Rights Reserved</small>
+        </article>
+
+      </section>
+    </footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
